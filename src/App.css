@@ -1,0 +1,143 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_list {
+  padding: 20px;
+  background: #ff8383;
+}
+
+.contact-list-item a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #a5ffb8;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.contact-list-item a img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.wrapper_content div {
+  color: #000000;
+  text-decoration: none;
+}
+
+.wrapper_content div.name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.wrapper_content div.email {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+
+.contact-detail {
+    padding: 40px 20px;
+    background: #eb8081;
+    margin: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 230px;
+}
+
+.contact-detail img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.contact-detail-wrapper {
+    text-align: center;
+}
+
+.contact-detail-name {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact-detail-email {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.contact-detail-email {
+  margin-bottom: 15px;
+}
+
+.contact-detail-wrapper button {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.navbar {}
+
+.navbar ul {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    background: #eb8081;
+    padding: 22px 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    position: relative;
+}
+
+.navbar ul li a:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    background: #000;
+    opacity: 0;
+}
+
+.navbar ul li a:hover:after {
+    opacity: 1;
+}
+
+.success {
+  padding: 10px;
+  margin-top: 15px;
+  background: #00bb00;
+  color: #ffffff;
+  border-radius: 4px;
+}
